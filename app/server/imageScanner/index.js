@@ -25,7 +25,7 @@ Meteor.methods({
   getAIResponseForScannedImage(imageURL) {
     const urlObject = imageScannerUrls.findOne({});
     return new Promise(function (resolve, reject) {
-      axios(`http://34.132.13.198:8000/imageRecognition?imageURL=${imageURL}&temperature=${urlObject.temperature}`, {
+      axios(`https://complyai.live/api/imageRecognition?imageURL=${imageURL}&temperature=${urlObject.temperature}`, {
         method: 'POST',
       })
         .then(result => {

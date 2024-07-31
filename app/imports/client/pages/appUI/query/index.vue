@@ -336,7 +336,7 @@
         this.aiResponse = [];
         this.response = false;
         const startTime = +new Date();
-        const response = await fetch('http://34.132.13.198:8000/generate-AI-response', {
+        const response = await fetch('https://complyai.live/api/generate-AI-response', {
           method: 'POST',
           cache: 'no-cache',
           headers: {
@@ -353,7 +353,7 @@
           });
         console.log('🚀 ~ searchQuery ~  this.responseSrc:', this.responseSrc);
         await this.getResponseInSelectedLang(this.defaultSelected);
-        const semanticSearch = await fetch(`http://34.132.13.198:8000/semantic-search?query=${queryText}&k=25`, {
+        const semanticSearch = await fetch(`https://complyai.live/api/semantic-search?query=${queryText}&k=25`, {
           method: 'POST',
           cache: 'no-cache',
           headers: {

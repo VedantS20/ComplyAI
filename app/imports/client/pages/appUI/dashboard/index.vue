@@ -7,7 +7,7 @@
         <li>✓ {{ _('dashboard_page_feature_list_point2') }}</li>
         <li>✓ {{ _('dashboard_page_feature_list_point3') }}</li>
         <li>✓ {{ _('dashboard_page_feature_list_point4') }}</li>
-        <li>✓ {{ _('dashboard_page_feature_list_point5') }}</li>
+        <!-- <li>✓ {{ _('dashboard_page_feature_list_point5') }}</li> -->
       </ul>
       <div class="feature-item" v-ripple @click="goToPage('query')">
         <img src="/animated/question.gif" alt="" />
@@ -17,13 +17,13 @@
         </div>
       </div>
 
-      <div class="feature-item" v-ripple @click="goToPage('product-packaging-scanner')">
+      <!-- <div class="feature-item" v-ripple @click="goToPage('product-packaging-scanner')">
         <img src="/animated/scanning.gif" alt="" />
         <div>
           <h2>{{ _('dashboard_page_ask_scan_product_title') }}</h2>
           <p>{{ _('dashboard_page_ask_scan_product_description') }}</p>
         </div>
-      </div>
+      </div> -->
       <div v-if="isWeb" v-ripple class="download-app">{{ _('dashboard_page_download_app') }}</div>
     </div>
   </app-wrapper>

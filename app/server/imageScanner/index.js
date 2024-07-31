@@ -25,12 +25,9 @@ Meteor.methods({
   getAIResponseForScannedImage(imageURL) {
     const urlObject = imageScannerUrls.findOne({});
     return new Promise(function (resolve, reject) {
-      axios(
-        `${Meteor.settings.public.API_HOST}/imageRecognition?imageURL=${imageURL}&temperature=${urlObject.temperature}`,
-        {
-          method: 'POST',
-        },
-      )
+      axios(`http://34.132.13.198:8000/imageRecognition?imageURL=${imageURL}&temperature=${urlObject.temperature}`, {
+        method: 'POST',
+      })
         .then(result => {
           if (result?.data) {
             resolve(result.data);

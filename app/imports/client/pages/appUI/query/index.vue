@@ -336,7 +336,7 @@
         this.aiResponse = [];
         this.response = false;
         const startTime = +new Date();
-        const response = await fetch(`${Meteor.settings.public.API_HOST}/generate-AI-response`, {
+        const response = await fetch('http://34.132.13.198:8000/generate-AI-response', {
           method: 'POST',
           cache: 'no-cache',
           headers: {
@@ -353,16 +353,13 @@
           });
         console.log('🚀 ~ searchQuery ~  this.responseSrc:', this.responseSrc);
         await this.getResponseInSelectedLang(this.defaultSelected);
-        const semanticSearch = await fetch(
-          `${Meteor.settings.public.API_HOST}/semantic-search?query=${queryText}&k=25`,
-          {
-            method: 'POST',
-            cache: 'no-cache',
-            headers: {
-              'Content-Type': 'application/json',
-            },
+        const semanticSearch = await fetch(`http://34.132.13.198:8000/semantic-search?query=${queryText}&k=25`, {
+          method: 'POST',
+          cache: 'no-cache',
+          headers: {
+            'Content-Type': 'application/json',
           },
-        );
+        });
 
         this.semanticSearchResponse = await semanticSearch.json();
         this.semanticSearchResponse.sort((a, b) => a.document.similarity_score - b.document.similarity_score);

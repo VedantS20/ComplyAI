@@ -1,10 +1,10 @@
 /* eslint-disable no-undef */
 
 App.info({
-  id: 'com.ondchackathon.teamfasalians',
-  name: 'teamfasalians',
-  description: 'ONDC hackathon project by team fasalians',
-  author: 'Team fasalians',
+  id: 'com.complyai.ggg',
+  name: 'team ggg',
+  description: 'Comply AI',
+  author: 'Team GGG',
   email: '_',
   website: '_',
 });

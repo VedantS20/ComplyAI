@@ -6,8 +6,7 @@
       <p class="about">
         Built with
         <v-icon color="red">mdi-heart</v-icon>
-        by Team Fasalians for
-        <a href="https://github.com/iamparthaonline/BFB-Hackathon-ONDC-2024">Build For Bharat Hackathon</a>
+        by Team GGG
       </p>
     </main>
   </div>
@@ -26,6 +25,7 @@
     margin: auto;
     padding-bottom: 80px;
     background-color: #f7f7fc;
+    height: 100%;
     @media only screen and (min-width: 600px) {
       display: flex;
       // height: 100vh;

@@ -44,8 +44,9 @@ docker compose up
 
 
 ## Modal Fine Tunning 
-We have used RAFT (Retrieval Augmented Fine-Tuning) to Generate the dataset to fine tune Mistral 7B 
-[Dataset Link](https://huggingface.co/datasets/Vedant20/ComplyAI_dataset/viewer)
+We have used [RAFT](https://arxiv.org/pdf/2403.10131) (Retrieval Augmented Fine-Tuning) to Generate the dataset to fine tune Mistral 7B 
+
+Dataset Link : [https://huggingface.co/datasets/Vedant20/ComplyAI_dataset/viewer](https://huggingface.co/datasets/Vedant20/ComplyAI_dataset/viewer)
 
 ![image](https://github.com/user-attachments/assets/8e901047-4b89-4afe-95b0-7ddd459916ec)
 

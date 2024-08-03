@@ -1,4 +1,4 @@
-# Comply AI
+# [Comply AI](https://complyai.live/)
 Every e-commerce merchant has to comply with multiple central & state regulations to ensure product & service safety for the buyer. All these information guidelines and documents are scattered throughout different platforms. Because of that, it can be very overwhelming for an entrepreneur just starting out. Therefore we built a centralized AI Based Legal Compliance & Product Safety Engine where one can search their queries, and questions about everything related to Legal Compliance & Product Safety in India for their businesses. Also, we have provided a Rich Image processing feature by using which people can validate their product packaging against the applicable legal compliances.
 
 ## Authors 
@@ -55,7 +55,6 @@ Dataset Link : [https://huggingface.co/datasets/Vedant20/ComplyAI_dataset/viewer
 
 ## Checkout The Application
 
-[Website Link](http://34.42.69.103/)
+[Website Link](https://complyai.live/)
 
-![QR Image](https://github.com/iamparthaonline/BFB-Hackathon-ONDC-2024/blob/main/QR_new.jpeg)
 

@@ -1,0 +1,23 @@
+{
+  "id": "seed_task_47",
+  "type": "general",
+  "question": "2. Which form of Vitamin D is known as Cholecalciferol?",
+  "context": {
+    "sentences": [
+      [
+        "The nutrient levels shall not \nexceed maximum limits as specified in the s. The \ntypes of letters used shall not be less than five millimetres and the text of such \nstatement shall be in the front of the pack of every container of food for infant \nnutrition or any label affixed thereto."
+      ]
+    ],
+    "title": [
+      [
+        "placeholder_title",
+        "placeholder_title",
+        "placeholder_title",
+        "placeholder_title"
+      ]
+    ]
+  },
+  "oracle_context": "A (1987), USP, BP, \nPhEur, IP  \n8. Niacin  \n(1)  Nico tinic acid amide  \n(Nicotinamide)  FCC, USP, PhEur, BP, IP   \nIF, MCCF, PCCF, \nFUF, FSMP  (2)  Nicotinic acid  FCC, USP, BP, PhEur, IP  \n9. Vitamin B 6 \n(1)  Pyridoxine hydrochloride  \n FCC, USP, BP, PhEur, IP  \n  \nIF, MCCF, PCCF, \nFUF, FSMP  (2)  Pyridoxal 5 -phosphate  MI, FCC, USP, IP  Version -II (04 .01.2024)  \n Sl. No.",
+  "cot_answer": "### Suote##\n\n### Conclusion:\n\n- The context clearly states that Vitamin D3 is known as Cholecalciferol.\n\n<ANSWER>: Vitamin D3 is known as Cholecalciferol.",
+  "instruction": "<DOCUMENT>The nutrient levels shall not \nexceed maximum limits as specified in the composition tables.</DOCUMENT>\n<DOCUMENT>Nutrient source  Purity r equirements  by Use in SP, PhEur, IP  FSMP  \n \n \n (6)  DL-alpha Tocopheryl acid \nsuc Which form of Vitamin D is known as Cholecalciferol?"
+}
